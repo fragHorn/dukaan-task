@@ -1,0 +1,66 @@
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 2.2rem;
+    width: 80%;
+    margin-top: 20px;
+    background-color: transparent;
+}
+
+#name{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#outerCircle{
+    height:34px;
+    width: 34px;
+    border-radius: 100%;
+    background-color: #c2e4ff6a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#companyName{
+    margin-left: 10px;
+    font-size: 1.8rem;  
+    font-family: myFontBold;
+}
+
+#right{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+#signIn{
+    color: white;
+    margin-right: 20px;
+}
+
+#signIn:hover{
+    font-weight: bold;
+}
+
+#forPC{
+    background-color: white;
+    height: 100%;
+    border-radius: 5px;
+    padding: 8px 10px;
+    box-sizing: border-box;
+    font-family: myFontBold;
+    color: #146EB4;
+}
+
+#forPC:hover{
+    cursor: pointer;
+    background-color:  #c2e4ff6a;
+    color: white;
+}

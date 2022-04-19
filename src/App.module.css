@@ -1,0 +1,196 @@
+@font-face{
+  font-family: myFont;
+  src: url(./fonts/galanogrotesque-regular.otf);
+}
+
+@font-face{
+  font-family: myFontBold;
+  src: url(./fonts/galanogrotesque-semibold.otf);
+}
+
+
+body{
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  /* overflow-y: hidden; */
+}
+
+.App {
+  font-family: myFont;
+  width: 100%;
+}
+
+.headerParent{
+  background-color: #146EB4;
+  height: 45vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;  
+}
+
+#content{
+  width: 100%;
+  /* height: 4vh; */
+  background-color: #FAFAFA;
+  margin-top: -30px;
+}
+
+#box{
+  height: 350px;
+  width: 100%;
+  background-color: #cfe3f382;
+  position: relative;
+  top: -100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.boxItems{
+  height: 300px;
+  width: 20%;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon{
+  margin-top: 30px  ;
+  height: 80px;
+  width: 80px;
+  border: 5px solid #146EB4;
+  border-radius: 10px;
+  background-color: rgba(20, 110, 180, 0.15);
+  margin-bottom: 30px;
+}
+
+.heading{
+  font-family: myFontBold;
+  margin-bottom: 20px;
+}
+
+.para{
+  text-align:center;
+  color: #4D4D4D;
+}
+
+#otherProducts{
+  width: 100%;
+}
+
+#productsContainer{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product{
+  width: 30%;
+  margin-bottom: 40px;
+}
+
+.product > img{
+  height: 200px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.productTitle{
+  width: fit-content;
+  font-family: myFontBold;  
+  margin-top: 10px;
+  font-size: 1.3rem;
+  color: #1A181E;
+  margin-bottom: 10px;
+}
+
+.productDesc{
+  color: #4D4D4D;
+}
+
+footer{
+  height: 300px;
+  width: 100%;
+  background-color: #1A181E;
+}
+
+#footerContainer{
+  width: 80%;
+  height: 200px;
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  margin: auto;
+}
+
+#name{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-right: 300px;
+}
+
+#outerCircle{
+  height:34px;
+  width: 34px;
+  border-radius: 100%;
+  background-color: #dadcde6a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#companyName{
+  margin-left: 10px;
+  font-size: 1.8rem;  
+  font-family: myFontBold;
+}
+
+.options{
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+}
+
+.optionsValues{
+  text-decoration: none;
+  /* text-align: right; */
+  color: #fff;
+  font-size: 0.8rem;
+  margin-bottom: 20px;
+}
+
+.optionsValues:hover{
+  text-decoration: underline;
+}
+
+#rule{
+  border: none;
+  height:1px;
+  background-color: rgba(240, 238, 238, 0.321);
+}
+
+#disclaimer{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  margin: auto;
+}
+
+#disclaimer > p{
+  margin-top:20px;
+}
+
+#disclaimer>p>img{
+  height: 15px;
+  width: 22px;
+}
